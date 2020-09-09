@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// 함수형 컴포넌트
 function App() {
   return (
     <div>

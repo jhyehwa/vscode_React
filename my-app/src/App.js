@@ -1,17 +1,25 @@
 import React from 'react';
 import Fruit from './Fruit';
+import State_learn from './State_learn';
+import ComponentLifrCycle from './ComponentLifeCycle';
 
 function App() {
   return (
     <div>
        리액트 처음 배워보기<br/><br/>
 
+       {/*
        <Lemon name = 'yellow' />
        <Lemon name = 'red' />
        <Lemon name = 'orange' />
        <Lemon name = 'green' /> <br/><br/>
+       */}
 
-       <Fruit />
+       {/* <Fruit /> */}
+
+       {/* <State_learn /> */}
+
+       <ComponentLifrCycle />
     </div>
   );
 }
